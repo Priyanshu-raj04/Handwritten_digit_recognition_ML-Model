@@ -1,19 +1,29 @@
-# 🧠 Handwritten Digit Recognition
+#  HANDWRITTEN DIGIT RECOGNITION
 
-This project uses a deep learning model to recognize handwritten digits (0–9) from the MNIST dataset.
+**GOAL** 
+- The main purpose of this project is to recognize handwritten digits by humans.
 
-## 🚀 Features
-- Trained on 70,000 grayscale 28x28 images (MNIST)
-- Machinelearning model for classification
-- Accuracy evaluation & visualizations
+**DATASET**
+- The data used in this project can be downloaded from [here](https://www.kaggle.com/c/mnist-handwritten-digit-recognition/data)
+- Data containes images of handwritten digits between 0 to 9 in csv format.
 
-## ▶️ Usage
-1. Open the notebook in Jupyter.
-2. Run all cells to load data, train, evaluate, and test.
+**WHAT I HAD DONE**
+- Preprocessed the images before model training.
+- Build Convolution Neural network Architecture and trained the model.
+- Evaluated the model using Accuracy score.
+- Visualized Model's performance using seaborn and matplotlib libraries..
 
-## 📊 Output
-- Model accuracy 97.8 %
-- Confusion matrix & performance plots
 
-## ⚙️ Tech Stack
-- Python, TensorFlow/Keras, NumPy, Matplotlib, Scikit-learn
+## CONVOLUTIONAL NEURAL NETWORK
+ 
+ ***Network Architecture***
+ - Input Dense Layer | Activation Function : Relu
+ - Three Conv2D Layers, maxPooling2D | Activation Function : Relu
+ - Output layer | Activation Function : Softmax
+ - loss : categorical_cross_entropy
+ - metrics : accuracy_score
+ - optimizer : Adam
+ 
+ **RESULTS**
+ - Train Accuracy : 97.8%
+ - Test Accuracy : 98.7%
