@@ -4,7 +4,6 @@
 - The main purpose of this project is to recognize handwritten digits by humans.
 
 **DATASET**
-- The data used in this project can be downloaded from [here](https://www.kaggle.com/c/mnist-handwritten-digit-recognition/data)
 - Data containes images of handwritten digits between 0 to 9 in csv format.
 
 **WHAT I HAD DONE**
